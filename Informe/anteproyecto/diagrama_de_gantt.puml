@@ -1,0 +1,19 @@
+@startuml gantt_diagram
+[T1 (10 hs)] lasts 2 days
+[T2 (15 hs)] lasts 3 days
+[T2 (15 hs)] starts at [T1 (10 hs)]'s end
+[T3 (15 hs)] lasts 3 days
+[T3 (15 hs)] starts at [T2 (15 hs)]'s end
+[T4 (25 hs)] lasts 1 week
+[T4 (25 hs)] starts at [T3 (15 hs)]'s end
+[T5 (25 hs)] lasts 1 week
+[T5 (25 hs)] starts at [T4 (25 hs)]'s end
+[T6 (10 hs)] lasts 2 days
+[T6 (10 hs)] starts at [T5 (25 hs)]'s end
+[T7 (50 hs)] lasts 2 weeks
+[T7 (50 hs)] starts at [T6 (10 hs)]'s end
+[T8 (25 hs)] lasts 1 week
+[T8 (25 hs)] starts at [T7 (50 hs)]'s end
+[T9 (25 hs)] lasts 1 week
+[T9 (25 hs)] starts at [T8 (25 hs)]'s end
+@enduml
